@@ -1,0 +1,106 @@
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PRANIKYA- one stop solution for Gen Z</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,600,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Our Courses</h1>
+    </section>
+
+
+    <!---------- course ----------->
+
+    <section class="course">
+        <h1>Courses We Offer</h1>
+        <p>The catogaries provided below further divides in degree courses </p>
+        <div class="row">
+            <div class="course-col">
+                <h3>Skill Based</h3>
+                <p>Skill Based degrees of the new today is another booming industry which any passion can pursue.</p>
+            </div>
+            <div class="course-col">
+                <h3>Under Graduation</h3>
+                <p>The under grad programme is for the students who recently cleared out from higher secondary education programme.</p>
+            </div>
+            <div class="course-col">
+                <h3>Post Graduation</h3>
+                <p>The post grad is available for the students who have cleared thier under grad.</p>
+            </div>
+        </div>
+    </section>
+
+    <!---------- Facilities ---------->
+
+    <section class="facility">
+        <h1>Our Facilities</h1>
+        <p>Bringing the best to the best</p>
+        <div class="row">
+            <div class="facility-col">
+                <img src="images/library.png">
+                <h3>Best Proffesors and Teaching Technology</h3>
+                <p></p>
+            </div>
+            <div class="facility-col">
+                <img src="images/basketball.png">
+                <h3>Explore the Wild</h3>
+                <p>We bring the best </p>
+            </div>
+            <div class="facility-col">
+                <img src="images/cafeteria.png">
+                <h3>World Class Infrastructure</h3>
+                <p>The world class infrastructure makes sure to select the best classroom, library and cafeteria etc. as per your wish</p>
+            </div>
+        </div>
+    </section>
+
+    <!-------- footer ---------->
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque aliquet turpis nulla, eleifend faucibus est<br>sollicitudin ut. Maecenas ut venenatis ex, et dapibus purus.</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>made with <i class="fa fa-heart-o"></i> by Easy Tutorials</p>
+    </section>
+
+
+    <!----JavaScript for toggle menu---->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+</body>
+
+</html>
